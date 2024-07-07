@@ -1,0 +1,83 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="annual_income<250455.297" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="annual_expense<156323.875" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="annual_income<100422.406" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="leaf=0.0574266911" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    8 [ label="leaf=-0.143150106" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    4 [ label="temp_4<21.6000004" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="leaf=0.0834234357" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    10 [ label="_Saving/year_<72181" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    10 -> 15 [label="yes" color="#FF0000"]
+    10 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=0.249468312" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    16 [ label="leaf=0.167530552" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    2 [ label="annual_expense<380700.469" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="temp_6<31.8999996" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="age<68" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    11 -> 17 [label="yes" color="#FF0000"]
+    11 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=-0.16278103" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    18 [ label="leaf=-0.124411501" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    12 [ label="leaf=-0.0860419795" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    6 [ label="annual_income<441079.438" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="leaf=0.207812458" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    14 [ label="annual_expense<521639.781" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    14 -> 19 [label="yes" color="#FF0000"]
+    14 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="leaf=-0.141677782" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    20 [ label="annual_income<556263.688" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    20 -> 21 [label="yes" color="#FF0000"]
+    20 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="leaf=0.182544723" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    22 [ label="rain_7<89.4000015" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    22 -> 23 [label="yes" color="#FF0000"]
+    22 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="leaf=0.153767571" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    24 [ label="rain_5<97" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    24 -> 25 [label="yes" color="#FF0000"]
+    24 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="leaf=-0.00930292066" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    26 [ label="leaf=-0.141677782" fillcolor="#78cbe" shape="box" style="filled" ]
+}
