@@ -1,83 +1,161 @@
 digraph {
     graph [ rankdir=TB ]
 
-    0 [ label="annual_income<250455.297" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    0 [ label="_mkt_price_(THB/ton)_<6911.2002" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     0 -> 1 [label="yes" color="#FF0000"]
     0 -> 2 [label="no, missing" color="#0000FF"]
 
-    1 [ label="annual_expense<156323.875" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    1 [ label="temp_12<33.7999992" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     1 -> 3 [label="yes" color="#FF0000"]
     1 -> 4 [label="no, missing" color="#0000FF"]
 
-    3 [ label="annual_income<100422.406" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    3 [ label="rain_2<70.2285385" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     3 -> 7 [label="yes" color="#FF0000"]
     3 -> 8 [label="no, missing" color="#0000FF"]
 
-    7 [ label="leaf=0.0574266911" fillcolor="#78cbe" shape="box" style="filled" ]
+    7 [ label="_yield_(kg/rai)_<720.900085" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
 
-    8 [ label="leaf=-0.143150106" fillcolor="#78cbe" shape="box" style="filled" ]
+    15 [ label="leaf=0.0468202569" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    4 [ label="temp_4<21.6000004" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    16 [ label="leaf=-0.033813335" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    8 [ label="_mkt_price_(THB/ton)_<6423.3501" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="year_experience<9" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    17 -> 23 [label="yes" color="#FF0000"]
+    17 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="leaf=0.00966675486" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    24 [ label="temp_4<15.6000004" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    24 -> 33 [label="yes" color="#FF0000"]
+    24 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=0.00966675486" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    34 [ label="leaf=0.10971991" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    18 [ label="_yield_(kg/rai)_<363.957947" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    18 -> 25 [label="yes" color="#FF0000"]
+    18 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="leaf=0.0226732027" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    26 [ label="leaf=-0.0103341229" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    4 [ label="_mkt_price_(THB/ton)_<5069.74707" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     4 -> 9 [label="yes" color="#FF0000"]
     4 -> 10 [label="no, missing" color="#0000FF"]
 
-    9 [ label="leaf=0.0834234357" fillcolor="#78cbe" shape="box" style="filled" ]
+    9 [ label="leaf=-0.0164567772" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    10 [ label="_Saving/year_<72181" fillcolor="#e48038" shape="box" style="filled, rounded" ]
-    10 -> 15 [label="yes" color="#FF0000"]
-    10 -> 16 [label="no, missing" color="#0000FF"]
+    10 [ label="leaf=0.0222479887" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    15 [ label="leaf=0.249468312" fillcolor="#78cbe" shape="box" style="filled" ]
-
-    16 [ label="leaf=0.167530552" fillcolor="#78cbe" shape="box" style="filled" ]
-
-    2 [ label="annual_expense<380700.469" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    2 [ label="temp_4<19.4039021" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     2 -> 5 [label="yes" color="#FF0000"]
     2 -> 6 [label="no, missing" color="#0000FF"]
 
-    5 [ label="temp_6<31.8999996" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    5 [ label="_mkt_price_(THB/ton)_<10634.0801" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     5 -> 11 [label="yes" color="#FF0000"]
     5 -> 12 [label="no, missing" color="#0000FF"]
 
-    11 [ label="age<68" fillcolor="#e48038" shape="box" style="filled, rounded" ]
-    11 -> 17 [label="yes" color="#FF0000"]
-    11 -> 18 [label="no, missing" color="#0000FF"]
+    11 [ label="leaf=-0.209338546" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    17 [ label="leaf=-0.16278103" fillcolor="#78cbe" shape="box" style="filled" ]
+    12 [ label="leaf=0.0226732027" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    18 [ label="leaf=-0.124411501" fillcolor="#78cbe" shape="box" style="filled" ]
-
-    12 [ label="leaf=-0.0860419795" fillcolor="#78cbe" shape="box" style="filled" ]
-
-    6 [ label="annual_income<441079.438" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    6 [ label="_yield_(kg/rai)_<551" fillcolor="#e48038" shape="box" style="filled, rounded" ]
     6 -> 13 [label="yes" color="#FF0000"]
     6 -> 14 [label="no, missing" color="#0000FF"]
 
-    13 [ label="leaf=0.207812458" fillcolor="#78cbe" shape="box" style="filled" ]
+    13 [ label="rain_6<140.300003" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    13 -> 19 [label="yes" color="#FF0000"]
+    13 -> 20 [label="no, missing" color="#0000FF"]
 
-    14 [ label="annual_expense<521639.781" fillcolor="#e48038" shape="box" style="filled, rounded" ]
-    14 -> 19 [label="yes" color="#FF0000"]
-    14 -> 20 [label="no, missing" color="#0000FF"]
+    19 [ label="temp_1<28.7999992" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    19 -> 27 [label="yes" color="#FF0000"]
+    19 -> 28 [label="no, missing" color="#0000FF"]
 
-    19 [ label="leaf=-0.141677782" fillcolor="#78cbe" shape="box" style="filled" ]
+    27 [ label="temp_12<19.0329609" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    27 -> 35 [label="yes" color="#FF0000"]
+    27 -> 36 [label="no, missing" color="#0000FF"]
 
-    20 [ label="annual_income<556263.688" fillcolor="#e48038" shape="box" style="filled, rounded" ]
-    20 -> 21 [label="yes" color="#FF0000"]
-    20 -> 22 [label="no, missing" color="#0000FF"]
+    35 [ label="leaf=-0.0433414504" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    21 [ label="leaf=0.182544723" fillcolor="#78cbe" shape="box" style="filled" ]
+    36 [ label="rain_2<159.100006" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    36 -> 45 [label="yes" color="#FF0000"]
+    36 -> 46 [label="no, missing" color="#0000FF"]
 
-    22 [ label="rain_7<89.4000015" fillcolor="#e48038" shape="box" style="filled, rounded" ]
-    22 -> 23 [label="yes" color="#FF0000"]
-    22 -> 24 [label="no, missing" color="#0000FF"]
+    45 [ label="temp_12<30.7999992" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    45 -> 47 [label="yes" color="#FF0000"]
+    45 -> 48 [label="no, missing" color="#0000FF"]
 
-    23 [ label="leaf=0.153767571" fillcolor="#78cbe" shape="box" style="filled" ]
+    47 [ label="year_experience<14" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    47 -> 51 [label="yes" color="#FF0000"]
+    47 -> 52 [label="no, missing" color="#0000FF"]
 
-    24 [ label="rain_5<97" fillcolor="#e48038" shape="box" style="filled, rounded" ]
-    24 -> 25 [label="yes" color="#FF0000"]
-    24 -> 26 [label="no, missing" color="#0000FF"]
+    51 [ label="leaf=0.00343584828" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    25 [ label="leaf=-0.00930292066" fillcolor="#78cbe" shape="box" style="filled" ]
+    52 [ label="leaf=0.0868653879" fillcolor="#78cbe" shape="box" style="filled" ]
 
-    26 [ label="leaf=-0.141677782" fillcolor="#78cbe" shape="box" style="filled" ]
+    48 [ label="leaf=-0.0013977848" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    46 [ label="_mkt_price_(THB/ton)_<9665.13965" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    46 -> 49 [label="yes" color="#FF0000"]
+    46 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="leaf=0.00966675486" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    50 [ label="leaf=-0.0224060919" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    28 [ label="_yield_(kg/rai)_<372.868896" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    28 -> 37 [label="yes" color="#FF0000"]
+    28 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=-0.0763487741" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    38 [ label="leaf=0.00966675486" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    20 [ label="temp_7<21.2989597" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    20 -> 29 [label="yes" color="#FF0000"]
+    20 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="_yield_(kg/rai)_<357.650909" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    29 -> 39 [label="yes" color="#FF0000"]
+    29 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=0.0414260291" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    40 [ label="leaf=-0.0224060919" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    30 [ label="year_experience<48" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    30 -> 41 [label="yes" color="#FF0000"]
+    30 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=-0.144472227" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    42 [ label="leaf=-0.0103341229" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    14 [ label="rain_5<196.199997" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    14 -> 21 [label="yes" color="#FF0000"]
+    14 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="_mkt_price_(THB/ton)_<8582.75" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    21 -> 31 [label="yes" color="#FF0000"]
+    21 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="temp_7<28.2000008" fillcolor="#e48038" shape="box" style="filled, rounded" ]
+    31 -> 43 [label="yes" color="#FF0000"]
+    31 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-0.0548417941" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    44 [ label="leaf=0.0101125054" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    32 [ label="leaf=-0.1799732" fillcolor="#78cbe" shape="box" style="filled" ]
+
+    22 [ label="leaf=0.0160989575" fillcolor="#78cbe" shape="box" style="filled" ]
 }
